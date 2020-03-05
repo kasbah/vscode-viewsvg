@@ -2,10 +2,7 @@ import * as path from 'path';
 import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
-
-	context.subscriptions.push(vscode.commands.registerCommand('react-webview.start', () => {
-		ReactPanel.createOrShow(context.extensionPath);
-	}));
+	ReactPanel.createOrShow(context.extensionPath);
 }
 
 /**

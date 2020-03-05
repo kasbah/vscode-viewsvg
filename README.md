@@ -1,4 +1,4 @@
-# VSCode Webview React
+# VSCode View SVG
 
 This project was bootstrapped with 
 * [Create React App](https://github.com/facebookincubator/create-react-app)
